@@ -1,0 +1,7 @@
+int sum_from_to(int first, int last) {
+    int sum = 0;
+    for (int i = first; i <= last; i++) {
+        sum += i;
+    }
+    return sum;
+}
